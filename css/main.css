@@ -1,0 +1,50 @@
+.site-header {
+     background-color: skyblue;
+     color:greenyellow;
+     height: 200vh;
+     /* width: 200vh; */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* display:flex; */
+     /* flex-direction:right; */
+    /* justify-content:top; */
+    align-items:center;
+
+} 
+.site-header{
+    margin: 90px;
+}
+
+
+img {
+    border-radius: 90%;
+    height: 150px;
+    width: 150px;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    box-shadow: rgb(209, 62, 52) 2px 5px 5px;
+    margin-bottom: 20vh;
+
+}
+#cource-link{
+    color:greenyellow;
+
+}
+#greetings{
+    color: deeppink;
+    text-align: center;
+    display: block;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+
+}
+
+body {
+    margin: 5;
+}
+
+#name {
+    color: blue;
+}
