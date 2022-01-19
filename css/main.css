@@ -1,44 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+
 .site-header {
-     background-color: skyblue;
-     color:greenyellow;
-     height: 200vh;
-     /* width: 200vh; */
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    /* display:flex; */
-     /* flex-direction:right; */
-    /* justify-content:top; */
-    align-items:center;
+     background-color: white;
+     color:turquoise;
+     height: 120vh;
+    /* align-items:center; */
+    font-family: 'Old Standard TT', serif;
 
 } 
 .site-header{
-    margin: 90px;
+    /* margin: 90px; */
 }
 
 
 img {
-    border-radius: 90%;
-    height: 150px;
-    width: 150px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
     align-self: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
     /* width: 50%; */
-    box-shadow: rgb(209, 62, 52) 2px 5px 5px;
-    margin-bottom: 20vh;
+    box-shadow: rgb(17, 16, 16) 2px 5px 5px;
+    margin-bottom:10vh;
+    margin-top: 10vh;
 
+} 
+#EC{
+    font-style: italic;
 }
-#cource-link{
-    color:greenyellow;
+#social-links{
+    display: inline-block;
+    /* text-align: center; */
+    display: grid; 
+    place-items: center;
+    list-style-type: none;
+    margin-right: 50%;
+}
 
-}
 #greetings{
-    color: deeppink;
+    /* color: turquoise; */
+    
     text-align: center;
-    display: block;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-
+    display: block;font-size: x-large;
+    font-style: italic;
 }
 
 body {
@@ -47,4 +53,5 @@ body {
 
 #name {
     color: blue;
+
 }
